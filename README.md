@@ -1,6 +1,12 @@
 # Mon_premier_projet
 Création d'un site web statique pour une agence des services immobiliers et pompes funèbres.
 
+---------------
+
+## 📄 Licence
+
+- Ce projet est sous licence MIT — crée par Hanniel Mulumba (mulumbamk2000@gmail.com). 
+
 -----
 
 ## Date du projet
@@ -31,3 +37,4 @@ Création d'un site web statique pour une agence des services immobiliers et pom
 
 - ![capture d'écran page d'acceuil](img/aperçu_1.jpeg)
 - ![capture d'écran page location](img/aperçu_2.jpeg)
+
