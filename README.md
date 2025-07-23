@@ -30,4 +30,4 @@ Création d'un site web statique pour une agence des services immobiliers et pom
 ## Aperçu
 
 - ![capture d'écran page d'acceuil](img/aperçu_1.jpeg)
-- ![capture d'écran page location](img/aperçu_1.jpeg)
+- ![capture d'écran page location](img/aperçu_2.jpeg)
