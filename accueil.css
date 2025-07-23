@@ -1,0 +1,615 @@
+*{
+   margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-size:cover;
+	background-position:center;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	font-family: sans-serif;
+	
+}
+.banner1{
+         background-color:black;
+         text-align: center;
+
+}
+nav{
+
+}
+nav ul{
+	display: inline-flex;
+	list-style-type: none;
+	color: white;
+}
+nav ul li {
+	width: 150px;
+	padding:15px;
+	margin: 15px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: century gothic;
+	font-weight: bold;
+	font-size: 16px;
+}
+nav ul li:hover{
+	background-color:skyblue;
+	border-radius: 5px;
+	
+}
+nav>ul >li> a:hover{
+	color: maroon;
+	
+	
+}
+nav>ul >li:hover:active{
+	background-color:maroon;
+	border-radius: 5px;
+	
+}
+.sous-home{
+	display: none;
+}
+nav ul li:hover .sous-home{
+	display: block;
+	background-color:black;
+	margin-left: -15px;
+	margin-top: 15px;
+	position: absolute;
+}
+nav ul li:hover .sous-home ul {
+	margin: 15px;
+	display: block;
+}
+nav ul li:hover .sous-home ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px solid white;
+	border-radius: 0px;
+	background-color: transparent;
+	text-align:center;
+}
+nav ul li:hover .sous-home ul li:hover{
+	width: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color:skyblue;
+	text-align:left;
+	border:hidden;
+	position:relative;
+	border-bottom: 1px solid skyblue;
+	text-align: center;
+	transition:all 0.5s ease;
+}
+nav ul li:hover .sous-home ul li:last-child{
+	border-bottom: none;
+}
+nav ul li:hover .sous-home ul li a:hover{
+	color: maroon;
+}
+
+
+.sous-about{
+	display: none;
+}
+nav ul li:hover .sous-about{
+	display: block;
+	background-color:black;
+	margin-left: -15px;
+	margin-top: 15px;
+	position: absolute;
+}
+nav ul li:hover .sous-about ul {
+	margin: 15px;
+	display: block;
+}
+nav ul li:hover .sous-about ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px solid white;
+	border-radius: 0px;
+	background-color: transparent;
+	text-align:center;
+}
+nav ul li:hover .sous-about ul li:hover{
+	width: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color:skyblue;
+	text-align:left;
+	border:hidden;
+	position:relative;
+	border-bottom: 1px solid skyblue;
+	text-align: center;
+	transition:all 1s ease;
+}
+nav ul li:hover .sous-about ul li:last-child{
+	border-bottom: none;
+}
+nav ul li:hover .sous-about ul li a:hover{
+	color:maroon ;
+}
+
+.sous-divers{
+	display: none;
+}
+.about-divers:hover .sous-divers{
+	display: block;
+	background-color: black;
+	margin-top: -45px;
+	margin-left: 145px;
+	position: absolute;
+}
+
+#table1{
+	background-color: black;
+	background-position: center;
+	width: 100%;
+	height: 120px;
+	float: left;
+	opacity:0.8;
+	
+}
+
+
+
+#table1 h1{ 
+	color: white;
+	font-family: georgia;
+	font-style: italic;
+	font-size: 40px;
+	margin-left: -10;
+}
+
+.div-form1{
+	position:absolute;
+	width: 450px;
+	height: 280px;
+	top: 400px;
+	left:5%;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.form-form1{
+	position: relative;
+	padding:30px;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+	background-color:black;
+	color: white;
+	font-weight: bold;
+	font-family: verdana,serif;
+	font-size: 14px; 
+ }
+.form-form1 label button {
+	font-size: 14px;
+    padding:10px; 
+   margin: 10px;
+   text-align: center;
+   border:hidden;
+   background-color: green;
+   color: white;
+   border-radius: 5px;
+	font-family: verdana,serif;
+}
+.form-form1  a{
+	margin: 35px;
+	font-size: 14px;
+	text-decoration: none;
+    text-align: center;
+    color:green;
+	font-family: verdana,serif;
+}
+.form-form1  a:hover{
+	color: red;
+}
+.form-form1 input{
+ padding:10px; 
+ margin: 10px;
+ text-align: left;
+ size: 30px;
+ font-size: 14px;
+ border-bottom: 3px solid white;
+ border-top: hidden;
+ border-left: hidden;
+ border-right: hidden;
+ font-family: verdana,serif;
+ border-radius: 8px;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+}
+
+.form-form1 legend{
+	text-align: center;
+	color: maroon;
+	font-size: 22px;
+}
+.form-form1 fieldset:hover{
+	border-radius: 50px;
+   transition: all 1s ease;
+}
+
+.form-form1:hover{
+	border-radius: 50px;
+	background-color:white;
+	color: black;
+	transition: all 1s ease;
+}
+ .section-form2{
+
+ }
+
+
+#formul{
+	 text-align:left;
+	padding: 40px;
+	font-size: 22px;
+	font-family:gerogia;
+	font-weight: bold;
+	margin: 10px;
+  position: relative;
+  background-color:skyblue;
+  height: 1430px;
+  top: 180px;
+
+}
+#formul input {
+	 padding:10px; 
+ margin: 10px;
+ text-align: left;
+ size: 30px;
+ font-size: 14px;
+ border-bottom: 3px solid white;
+ border-top: hidden;
+ border-left: hidden;
+ border-right: hidden;
+ font-family: verdana,serif;
+ border-radius: 8px;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+}
+#formul fieldset{
+
+	text-decoration: none;
+  list-style-type: none;
+  background-color:skyblue;
+}
+#tabe3 ul .Rechercher a:hover{
+	text-align: center;
+	color:red;
+}
+#tabe3 ul a{
+      color: black;
+      text-decoration: none;
+      text-align: center;
+}
+#tabe3 ul li {
+	margin-left: 42%;
+	list-style-type: none;
+	colok;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 30px;
+	font-weight: bold;
+	font-family: georgia;
+	font-style: normal;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  top: 5px;
+
+}
+
+#formul legend{
+	text-align: center;
+	color: maroon;
+	font-size: 22px;
+	padding: 10px;
+}
+
+.table-acc{
+	position: absolute;
+	left: 50%;
+	
+	top: 450px;
+	
+	text-align: center;
+}
+.table-acc table{
+	position: relative;
+	width: 100%;
+	width: 550px;
+    background-color:transparent;
+}
+.table-acc caption{
+	background-color: chocolate;
+	width: 100%;
+}
+.table-acc caption p{
+	text-align: center;
+	color: white;
+	padding: 5px;
+
+}
+.table-acc td {
+	text-align: center;
+	padding: 5px;
+	color: white;
+    background-color: black;
+    border:2px solid chocolate;
+}
+.table-acc td p{
+	padding: 5px;
+}
+.table-acc td img{
+	opacity: 0.15;
+	width: 160px;
+}
+.table-acc td img:hover{
+   transition: 1s;
+	opacity:20;
+	width: 320px;
+	border-radius: 50px;
+
+}
+
+.table-galerie{
+	width: 1200px;
+	padding-top: 80px;
+	padding-left: 85px;
+}
+.table-galerie table{
+	width: 100%;
+}
+.table-galerie table td{
+	width: 280px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	border:2px solid chocolate;
+}
+.table-galerie table td p{
+	color:black;
+}
+.table-galerie table td img{
+	width: 100%;
+	
+}
+
+.table-galerie2{
+	width: 1200px;
+	padding-top: 50px;
+	padding-left: 85px;
+}
+.table-galerie2 table{
+	width: 100%;
+}
+.table-galerie2 table td{
+	width: 280px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	border:2px solid chocolate;
+}
+.table-galerie2 table td p{
+	color:black;
+}
+.table-galerie2 table td img{
+	width: 100%;
+	
+}
+
+.table-galerie3{
+	width: 1200px;
+	padding-top: 50px;
+	padding-left: 85px;
+}
+.table-galerie3 table{
+	width: 100%;
+}
+.table-galerie3 table td{
+	width: 280px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	border:2px solid chocolate;
+}
+.table-galerie3 table td p{
+	color:black;
+}
+.table-galerie3 table td img{
+	width: 100%;
+	
+}
+
+.table-galerie4{
+	width: 1200px;
+	padding-top: 50px;
+	padding-left: 85px;
+}
+.table-galerie4 table{
+	width: 100%;
+}
+.table-galerie4 table td{
+	width: 280px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	border:2px solid chocolate;
+}
+.table-galerie4 table td p{
+	color:black;
+}
+.table-galerie4 table td img{
+	width: 100%;
+	
+}
+.galerie table caption{
+	width: 100%;
+	background-color:chocolate;
+	padding: 10px;
+	font-size: 20px;
+}
+.form-gal {
+  padding-top: 200px;
+  padding-left: 85px;
+  width: 1200px;
+  
+}
+.form-gal form {
+	background-color:transparent;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 60px;
+	padding-top: 10px;
+
+}
+.form-gal form button{
+	padding: 10px;
+	margin-left: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color:skyblue;
+    border:2px solid white;
+ 
+}
+.form-gal form button a{
+	text-decoration: none;
+	color:black;
+}
+.form-gal form button a:hover{
+	text-decoration: none;
+	color:maroon;
+}
+
+.table-galerie table td  a, .table-galerie2 table td  a,.table-galerie3 table td  a,.table-galerie4 table td  a {
+	color: maroon;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.table-galerie table td button,.table-galerie2 table td button,.table-galerie3 table td button,.table-galerie4 table td button{
+	padding: 5px;
+    border:2px solid white;
+    text-decoration: none;
+	color:black;
+	border: 2px solid chocolate;
+	border-radius: 10px;
+	background-color: skyblue;
+	box-shadow: 3px 2px 3px 2px;
+}
+
+#tabform table {
+	width: 100%;
+	padding: 30px;
+	margin: 0px ;
+	margin-left: 125x;
+	vertical-align: top;
+	color: black;
+	text-align: center;
+	background: white;
+}
+#tabform table th{
+	font-size: 18px;
+    font-family: georgia;
+	font-style: normal;
+	font-weight: bold;
+	vertical-align: text-top;
+	padding: 10px;
+	margin: 20px;
+}
+#tabform table td{
+	font-size: 20px;
+font-family: calabri;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: text-top;
+	color: ;
+	margin: 10px;
+}
+.loca form{
+  width: 50%;
+  height: 1380px;
+  padding: 20px ;
+  right: 30px
+  left:20px;
+  margin: 10px 10px;
+  left: 20px;
+  right: 20px;
+  margin-left: 285px;
+  vertical-align: middle;
+  opacity: 0.85;
+  font-family: georgia;
+  font-weight: bold;
+  background-color:white ;
+  border-radius: 10px;
+  border:solid 3px chocolate;
+  position: relative;
+  box-shadow: 8px 10px 10px 8px;
+}
+
+
+.loca form input {
+	 padding:5px; 
+ margin: 5px;
+ text-align: left;
+ size: 30px;
+ font-size: 14px;
+ border-bottom: 3px solid white;
+ border-top: hidden;
+ border-left: hidden;
+ border-right: hidden;
+ font-family: verdana,serif;
+ border-radius: 8px;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+}
+.loca form select{
+		 padding:5px; 
+ margin: 5px;
+ text-align: left;
+ size: 30px;
+ font-size: 14px;
+ border-bottom: 3px solid white;
+ border-top: hidden;
+ border-left: hidden;
+ border-right: hidden;
+ font-family: verdana,serif;
+ border-radius: 8px;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+}
+.loca form select option{
+	font-size: 14px;
+	color: white;
+ font-weight: bold;
+  font-family: verdana,serif;
+  background-color:chocolate;
+}
+.loca form fieldset{
+
+	text-decoration: none;
+  list-style-type: none;
+  
+}
+
+
+
+
+
+

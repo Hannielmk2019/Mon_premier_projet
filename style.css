@@ -1,0 +1,245 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: verdana,serif;
+	background-repeat: no-repeat;
+    background-position:all;
+    background-size: cover;
+    background-attachment: all;
+}
+
+nav{
+	width: 100%;
+	background-color:black;
+	height: 60px;
+	border-top: 3px solid white;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav >ul {
+	margin:0px;
+	padding: 0px;
+}
+
+nav > ul:: after{
+	content:"";
+	display: block;
+	clear: both; 
+}
+
+nav >ul > li {
+	float:left;
+	position: relative;
+	left: 55%;
+		
+}
+nav > ul > li > a{
+	padding: 20px 20px;
+	color: white;
+
+}
+nav>ul>li:hover a{
+	padding: 20px 20px 20px 20px ;
+	background-color: black;
+	width: 100%;
+	position: relative;
+	color:green;
+	
+}
+nav li {
+	list-style-type: none;
+}
+nav li:hover .sous-menu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+    opacity: 0.7;
+
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+.sous-menu {
+	font-size: 14px;
+  }
+
+.sous-menu{
+	padding: 20px 20px;
+	 font-size: 14px;
+	 width: 100px;
+	 text-align: center;
+}
+
+.sous-menu{
+	display: none; 
+}
+
+.sous-menu li:hover a{
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: white;
+	transition: all  1.5s ease;
+}
+.section-form1{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height:650px;
+	background-color:black; 
+	size: 14px;
+	opacity: 0.6;
+}
+.div-form1{
+	position:absolute;
+	width: 450px;
+	height: 230px;
+	top: 250px;
+	left:58%;
+}
+
+.form-form1{
+	position: relative;
+	padding:30px;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+	background-color:black;
+	color: white;
+	font-weight: bold;
+	font-family: verdana,serif;
+	font-size: 14px; 
+ }
+.form-form1 label button {
+	font-size: 14px;
+    padding:10px; 
+   margin: 10px;
+   text-align: center;
+   border:hidden;
+   background-color: green;
+   color: white;
+   border-radius: 5px;
+	font-family: verdana,serif;
+}
+.form-form1  a{
+	margin: 35px;
+	font-size: 14px;
+	text-decoration: none;
+    text-align: center;
+    color:green;
+	font-family: verdana,serif;
+}
+.form-form1  a:hover{
+	color: red;
+}
+.form-form1 input{
+ padding:10px; 
+ margin: 10px;
+ text-align: left;
+ size: 30px;
+ font-size: 14px;
+ border-bottom: 3px solid white;
+ border-top: hidden;
+ border-left: hidden;
+ border-right: hidden;
+ font-family: verdana,serif;
+ border-radius: 8px;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+}
+
+.form-form1 legend{
+	text-align: center;
+	color: green;
+	font-size: 22px;
+}
+.form-form1 fieldset:hover{
+	border-radius: 50px;
+   transition: all 1.5s ease;
+}
+
+.form-form1:hover{
+	border-radius: 50px;
+	background-color:white;
+	color: black;
+	transition: all 2s ease;
+}
+.theme{
+	width:600px;
+	height: 600px;
+	position: relative;
+	top: 25px;
+	left: 25px;
+	border-radius: 100px;
+    
+}
+.theme:hover{
+	width:600px;
+	height: 600px;
+	background-color: black;
+	position: relative;
+	transition: 3s;
+	background-color:gray;
+	border-radius: 100px;
+}
+.article-theme1:hover{
+	height:550px;
+	width:500px;
+	top:25px;
+	left: 45px;
+	position: relative;
+	transition: 2s;
+	font-size: 30px;
+	text-align: center;
+	background-color:black;
+	box-shadow: 5px 4px 2px 8px;
+}
+.article-theme1 h1:hover{
+	font-family: verdana,serif;
+
+	color: white;
+	font-weight: bold;
+	top: 80px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	transition: 1s;
+   font-size: 65px;
+}
+.article-theme1 h1{
+	font-family: verdana,serif;
+	color:black;
+	font-weight: bold;
+	position: relative;
+	top: 65px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+
+
+}
+.article-theme1 h1 em{
+	color: white;
+}
+.article-theme1 h1>em:hover{
+	color: black;
+}
+.article-theme1{
+	background-color:skyblue;
+	height: 300px;
+	width:250px;
+	top:140px;
+	left: 150px;
+	position: relative;
+	border-right: : 
+	border:2px solid white;
+	text-align: center;
+	box-shadow: 5px 4px 2px 8px;  
+}
+
