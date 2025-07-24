@@ -1,25 +1,47 @@
-# Mon_premier_projet
-Création d'un site web statique pour une agence des services immobiliers et pompes funèbres.
 
----------------
+# 🌐 Premier projet web - Agence multi-services
 
-## vois le site en ligne 
+Ce projet est mon **tout premier site web**, réalisé en 2018 lorsque j'ai commencé à apprendre l'informatique de manière autodidacte.  
+Il s'agit d'un site vitrine pour une **agence de services** spécialisée dans :
 
-- 🔗 [Voir le site en ligne](https://hannielmk2019.github.io/Mon_premier_projet/)
+- La vente et la location de biens immobiliers 🏠
+- Les services funéraires ⚰️
 
----------------
+---
 
-## 📄 Licence
+## 📁 Contenu du site
 
-- Ce projet est sous licence MIT — crée par Hanniel Mulumba (mulumbamk2000@gmail.com). 
+- Page d'accueil
+- Galerie
+- Location
+- Formulaire d'inscription
+- Informations générales
+- Service immobilier
+- Service funéraire
 
------
+---
 
-## Date du projet
+## 🛠️ Technologies utilisées
 
-- Ce projet personnel a été réalisé en 2018 .
+- HTML5 & CSS3  
+- Sublime Text (éditeur de code)  
+- Adobe Photoshop (retouches graphiques)
 
------
+---
+
+## 🔧 Objectif
+
+Ce projet marque le début de mon parcours dans le développement web.  
+Il **n’est pas encore parfait**, mais je vais le **faire évoluer progressivement**, en y ajoutant des fonctionnalités, du JavaScript, du responsive design et pourquoi pas un back-end plus tard.
+
+---
+
+## ✨ Aperçu
+
+🔗 [Voir le site en ligne](https://hannielmk2019.github.io/Mon_premier_projet/)
+
+- ![screenshot page d'acceuil](img/aperçu_1.jpeg)
+- ![screenshot page location](img/aperçu_2.jpeg)
 
 ## Fonctionnalités
 
@@ -27,20 +49,16 @@ Création d'un site web statique pour une agence des services immobiliers et pom
 - Design pas très responsive( mais évolutif ).
 - statique mais évolutif.
 
--------
+----
 
-## Technologies utilisées
+## 📜 Licence
 
-- HTML;
-- CSS;
-- SublimeText;
-- Vscode;
-- Adobe Photoshop
+Projet personnel – tous droits réservés © Hanniel Mk 2018–2025
 
---------
+---
 
-## Aperçu
+## 🙋‍♂️ Auteur
 
-- ![capture d'écran page d'acceuil](img/aperçu_1.jpeg)
-- ![capture d'écran page location](img/aperçu_2.jpeg)
-
+- Hanniel Mulumba  
+- Étudiant en BUT Informatique – Université Paris-Saclay  
+- Passionné par le développement, les bases de données et les réseaux informatique.
